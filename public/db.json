@@ -1,0 +1,88 @@
+{
+   "books": [
+      {
+         "id": 0,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/13260653/original/9780374602451.jpg?1616123229",
+         "date": "2006-06-13",
+         "title": "Popisho",
+         "price": 789
+      },
+      {
+         "id": 1,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/13524524/original/290966.jpeg?1617901541",
+         "date": "2009-02-26",
+         "title": "Love in Color: Mythical Tales from Around the World, Retold",
+         "price": 1299
+      },
+      {
+         "id": 2,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/12983991/original/9780525511908.jpg?1618255069",
+         "date": "2011-08-01",
+         "title": "Something Unbelievable",
+         "price": 665
+      },
+      {
+         "id": 3,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/13422599/original/9780593243626.jpg?1616122071",
+         "date": "2015-04-12",
+         "title": "You Are Your Best Thing: Vulnerability, Shame Resilience, and the Black Experience",
+         "price": 1569
+      },
+      {
+         "id": 4,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/13175736/original/9781951142391.jpg?1614707536",
+         "date": "2010-12-13",
+         "title": "White Magic",
+         "price": 299
+      },
+      {
+         "id": 5,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/13422599/original/9780593243626.jpg?1616122071",
+         "date": "2009-02-26",
+         "title": "You Are Your Best Thing: Vulnerability, Shame Resilience, and the Black Experience",
+         "price": 1569
+      },
+      {
+         "id": 6,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/12994202/original/9783791387116.jpg?1615985791",
+         "date": "2003-07-08",
+         "title": "Tengo Un Dragón Dentro del Corazón: The Photographs of Carlota Guerrero",
+         "price": 1250
+      },
+      {
+         "id": 7,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/12983274/original/9780525657743.jpg?1612911396",
+         "date": "2014-05-08",
+         "title": "Crying in H Mart: A Memoir",
+         "price": 399
+      },
+      {
+         "id": 8,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/1946081/original/9781642591293.jpg?1617982653",
+         "date": "2014-09-30",
+         "title": "The Breakbeat Poets Vol. 4: Latinext",
+         "price": 899
+      },
+      {
+         "id": 9,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/2056761/original/9781779501127.jpg?1598897342",
+         "date": "2019-07-07",
+         "title": "Watchmen (2019 Edition)",
+         "price": 2050
+      },
+      {
+         "id": 10,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/13383007/original/9781501171345.jpg?1618346953",
+         "date": "2009-12-07",
+         "title": "The Last Thing He Told Me",
+         "price": 650
+      },
+      {
+         "id": 11,
+         "imageUrl": "https://images-production.bookshop.org/spree/images/attachments/13830155/original/SouvenirMuseum-hc-c-1-678x1024.jpeg?1617901331",
+         "date": "2018-01-30",
+         "title": "The Souvenir Museum: Stories",
+         "price": 450
+      }
+   ]
+}

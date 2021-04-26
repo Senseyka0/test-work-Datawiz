@@ -1,0 +1,9 @@
+@import "./_card.scss";
+@import "./_bookLoader.scss";
+
+.books {
+   margin-top: 80px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
