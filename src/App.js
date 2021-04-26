@@ -74,12 +74,16 @@ function App() {
                        ))
                      : Array(12)
                           .fill(0)
-                          .map((_, index) => <BookLoader key={index} />)}
+                          .map((_, index) => "Loading...")}
                </div>
             </div>
          </Container>
       </div>
    );
+}
+
+{
+   /* <BookLoader key={index} /> */
 }
 
 export default App;
