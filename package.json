@@ -1,5 +1,5 @@
 {
-   "name": "datawiz-test_work",
+   "name": "test-work-datawiz",
    "version": "0.1.0",
    "private": true,
    "proxy": "http://localhost:3005",
@@ -7,7 +7,7 @@
       "@material-ui/core": "^4.11.3",
       "@material-ui/icons": "^4.11.2",
       "@material-ui/lab": "*",
-      "@testing-library/jest-dom": "^5.11.10",
+      "@testing-library/jest-dom": "^5.12.0",
       "@testing-library/react": "^11.2.6",
       "@testing-library/user-event": "^12.8.3",
       "axios": "^0.21.1",
