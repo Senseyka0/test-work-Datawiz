@@ -5,4 +5,3 @@ export { default as DeleteModalWindow } from "./modalWindows/DeleteModalWindow";
 export { default as AddBookModalWindow } from "./modalWindows/AddBookModalWindow";
 export { default as InputField } from "./InputField";
 export { default as MiniMenu } from "./MiniMenu";
-export { default as BookLoader } from "./BookLoader";

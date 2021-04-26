@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Container } from "@material-ui/core";
 
-import { Header, Card, BookLoader } from "./components/";
+import { Header, Card } from "./components/";
 
 import "./scss/app.scss";
 
@@ -63,27 +63,21 @@ function App() {
          <Container maxWidth="lg">
             <div className="content">
                <div className="books">
-                  {isLoaded && books[0].imageUrl
-                     ? books.map((book) => (
-                          <Card
-                             key={book.id}
-                             onEditBook={onEditBook}
-                             onDeleteBook={onDeleteBook}
-                             {...book}
-                          />
-                       ))
-                     : Array(12)
-                          .fill(0)
-                          .map((_, index) => "Loading...")}
+                  {isLoaded &&
+                     books[0].imageUrl &&
+                     books.map((book) => (
+                        <Card
+                           key={book.id}
+                           onEditBook={onEditBook}
+                           onDeleteBook={onDeleteBook}
+                           {...book}
+                        />
+                     ))}
                </div>
             </div>
          </Container>
       </div>
    );
-}
-
-{
-   /* <BookLoader key={index} /> */
 }
 
 export default App;
