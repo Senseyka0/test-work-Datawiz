@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+### Books Library
+ 
+The task is to write a simple webpage in React​ that shows a list of books - data is provided via an Ajax Request, that returns a JSON object.
+Note: not a real server is needed here, the ajax calls will return JSON files. However, you will need to use http-server work to return the JSON.
+Each book will have:
+1. Author
+2. Date
+3. Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+When you enter the page, an AJAX request should fetch a list of books from a json file.
 
-## Available Scripts
+The page will show all the books resolved from the requests with a proper design – nice design – high score.
 
-In the project directory, you can run:
+The design should be based on bootstrap (http://getbootstrap.com/) or react material design (https://material-ui.com/)  include images and should look good​.
 
-### `npm start`
+Each book can be editable, meaning that an edit button​ should be available to edit the book fields.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Edit button should open a modal with save and cancel buttons (The modal should be based on Boostrap/material ui)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Proper validation should be included for strings – not empty​, and date – should be validated​ with error message.
 
-### `npm test`
+There should be an option to delete book with a prompt message.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Show each book title : in the following format : first letter of each word upper cased and each other letter should be lower cased, also remove any non-English letters from the title. For example : A title with the name “@@THIS is a BooK!!” should be changed to “This Is A Book”
+(similar as angular filter / pipe​ )
 
-### `npm run build`
+Should have a button to add new book​.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+None of this operations should be persistent (refreshing the page will clear the changes).
+ Please make it readable as possible, valid html and JavaScript files.
+ How to submit the code
+  1. 	Upload to your github.com
+  2. 	Upload to your server Send us the github repository link + link to a working task.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good Luck
