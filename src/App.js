@@ -42,11 +42,13 @@ function App() {
    };
 
    const onEditBook = (obj) => {
-      obj.title = transformTitle(obj.title);
-
-      const newBooks = [...books];
-
-      newBooks[obj.id] = obj;
+      const newBooks = books.map((book) => {
+         if (book.id === obj.id) {
+            obj.title = transformTitle(obj.title);
+            return obj;
+         }
+         return book;
+      });
 
       setBooks(newBooks);
    };
